@@ -110,31 +110,31 @@ int main(){
         case 1:
             printf("Atributo POPULAÇÃO usado para comparação\n");
             printf("Carta 1: %lu - Carta 2: %lu\n", cidade1.populacao, cidade2.populacao);
-            resultado1 = cidade1.populacao > cidade2.populacao ? cidade1.populacao : cidade2.populacao;
+            resultado1 = cidade1.populacao;
         break;
 
         case 2:
             printf("Atributo ÁREA usado para comparação\n");
             printf("Carta 1: %f - Carta 2: %f\n", cidade1.area, cidade2.area);
-            resultado1 = cidade1.area > cidade2.area ? cidade1.area : cidade2.area;
+            resultado1 = cidade1.area;
         break;
 
         case 3:
             printf("Atributo PIB usado para comparação\n");
             printf("Carta 1: %f - Carta 2: %f\n", cidade1.PIB, cidade2.PIB);
-            resultado1 = cidade1.PIB > cidade2.PIB ? cidade1.PIB : cidade2.PIB;
+            resultado1 = cidade1.PIB;
         break;
 
         case 4:
             printf("Atributo PONTOS TURÍSTICOS usado para comparação\n");
             printf("Carta 1: %d - Carta 2: %d\n", cidade1.numero_de_pontos_turisticos, cidade2.numero_de_pontos_turisticos);
-            resultado1 = cidade1.numero_de_pontos_turisticos > cidade2.numero_de_pontos_turisticos ? cidade1.numero_de_pontos_turisticos : cidade2.numero_de_pontos_turisticos;
+            resultado1 = cidade1.numero_de_pontos_turisticos;
         break;
 
         case 5:
             printf("Atributo DENSIDADE POPULACIONAL usado para comparação\n");
             printf("Carta 1: %f - Carta 2: %f\n", cidade1.densidade_populacional, cidade2.densidade_populacional);
-            resultado1 = cidade1.densidade_populacional < cidade2.densidade_populacional ? cidade1.densidade_populacional : cidade2.densidade_populacional;
+            resultado1 = cidade1.densidade_populacional;
         break;
 
         default:
@@ -157,31 +157,31 @@ int main(){
             case 1:
                 printf("Atributo POPULAÇÃO usado para comparação\n");
                 printf("Carta 1: %lu - Carta 2: %lu\n", cidade1.populacao, cidade2.populacao);
-                resultado2 = cidade1.populacao > cidade2.populacao ? cidade1.populacao : cidade2.populacao;
+                resultado2 = cidade2.populacao;
             break;
     
             case 2:
                 printf("Atributo ÁREA usado para comparação\n");
                 printf("Carta 1: %f - Carta 2: %f\n", cidade1.area, cidade2.area);
-                resultado2 = cidade1.area > cidade2.area ? cidade1.area : cidade2.area;
+                resultado2 = cidade2.area;
             break;
     
             case 3:
                 printf("Atributo PIB usado para comparação\n");
                 printf("Carta 1: %f - Carta 2: %f\n", cidade1.PIB, cidade2.PIB);
-                resultado2 = cidade1.PIB > cidade2.PIB ? cidade1.PIB : cidade2.PIB;
+                resultado2 = cidade2.PIB;
             break;
     
             case 4:
                 printf("Atributo PONTOS TURÍSTICOS usado para comparação\n");
                 printf("Carta 1: %d - Carta 2: %d\n", cidade1.numero_de_pontos_turisticos, cidade2.numero_de_pontos_turisticos);
-                resultado2 = cidade1.numero_de_pontos_turisticos > cidade2.numero_de_pontos_turisticos ? cidade1.numero_de_pontos_turisticos : cidade2.numero_de_pontos_turisticos;
+                resultado2 = cidade2.numero_de_pontos_turisticos;
             break;
     
             case 5:
                 printf("Atributo DENSIDADE POPULACIONAL usado para comparação\n");
                 printf("Carta 1: %f - Carta 2: %f\n", cidade1.densidade_populacional, cidade2.densidade_populacional);
-                resultado2 = cidade1.densidade_populacional < cidade2.densidade_populacional ? cidade1.densidade_populacional : cidade2.densidade_populacional;
+                resultado2 = cidade2.densidade_populacional;
             break;
     
             default:
